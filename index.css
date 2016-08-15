@@ -51,7 +51,7 @@ body {
 
   box-sizing: border-box;
   width: 320px;
-  padding: 10px 20px;
+  padding: 15px 20px;
 
   color: rgba(255, 255, 255, .7);
   font-family: 'Libre Franklin', sans-serif;
@@ -65,6 +65,7 @@ body {
   float: right;
   width: 20%;
   height: 50vh;
+  max-height: 30rem;
   shape-outside: polygon(0 0, 100% 100%, 100% 0);
   -webkit-shape-outside: polygon(0 0, 100% 100%, 100% 0);
 }
@@ -72,7 +73,7 @@ body {
   #bio {
     width: 40vw;
     max-width: 45rem;
-    padding: 1vw 2vw;
+    padding: 1.5vw 2vw;
   }
   #bio:before {
     width: 25%;

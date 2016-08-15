@@ -52,7 +52,7 @@ body {
   box-sizing: border-box;
   width: 320px;
   padding: 10px 20px;
-  
+
   color: rgba(255, 255, 255, .7);
   font-family: 'Libre Franklin', sans-serif;
   font-size: 1rem;
@@ -66,15 +66,16 @@ body {
   width: 30%;
   height: 50vh;
   shape-outside: polygon(0 0, 100% 100%, 100% 0);
+  -webkit-shape-outside: polygon(0 0, 100% 100%, 100% 0);
 }
 @media (min-aspect-ratio: 13/10) {
   #bio {
-    width: 38vw;
+    width: 42vw;
     padding: 1vw 2vw;
   }
   #bio:before {
     width: 25%;
-    height: 45vh;
+    height: 40vh;
   }
 }
 

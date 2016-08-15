@@ -63,22 +63,21 @@ body {
 #bio:before {
   content: "";
   float: right;
-  width: 30%;
+  width: 20%;
   height: 50vh;
-  max-height: 5rem;
   shape-outside: polygon(0 0, 100% 100%, 100% 0);
   -webkit-shape-outside: polygon(0 0, 100% 100%, 100% 0);
 }
 @media (min-aspect-ratio: 13/10) {
   #bio {
-    width: 42vw;
+    width: 40vw;
     max-width: 45rem;
     padding: 1vw 2vw;
   }
   #bio:before {
     width: 25%;
     height: 40vh;
-    max-height: auto;
+    max-height: 14rem;
   }
 }
 
